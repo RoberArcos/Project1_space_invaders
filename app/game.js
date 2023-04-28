@@ -124,7 +124,7 @@ const game = {
 
     // pintar Hard y que aparezca
     createHard() {
-        console.log("HARRDDDDDDDD")
+        // console.log("HARRDDDDDDDD")
         this.hardArr.push(
             new Hard(this.ctx, this.canvasSize, this.hardInstance, 10, 200, 40, 3)
         )

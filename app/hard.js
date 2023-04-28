@@ -13,7 +13,7 @@ class Hard {
 
     hard() {
         this.hardInstance = new Image()
-        this.hardInstance.src = "../images/hard.png"
+        this.hardInstance.src = "./images/hard.png"
     }
 
     drawHard() {

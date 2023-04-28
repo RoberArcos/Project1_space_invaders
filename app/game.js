@@ -90,7 +90,7 @@ const game = {
     //METER IMÁGENES NAVE Y FONDO
     setImageInstances() {
         this.shipInstance = new Image()
-        this.shipInstance.src = "../images/ship.png"
+        this.shipInstance.src = "./images/ship.png"
         this.gameOverAlert1()
         this.youWinAlert()
 
@@ -128,6 +128,10 @@ const game = {
         this.hardArr.push(
             new Hard(this.ctx, this.canvasSize, this.hardInstance, 10, 200, 40, 3)
         )
+    },
+
+    createVideo() {
+        this.videointro = Video
     },
 
     //DIBUJAR TODO
@@ -247,7 +251,7 @@ const game = {
 
             let shootingInterval
             if (timeElapsed >= 13000) {
-                shootingInterval = 450
+                shootingInterval = 300
             } else {
                 shootingInterval = 700
             }

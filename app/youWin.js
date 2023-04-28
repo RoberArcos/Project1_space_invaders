@@ -12,7 +12,7 @@ class YouWin {
 
     initYouwinImage() {
         this.youWinInstance = new Image()
-        this.youWinInstance.src = "../images/youWin.jpg"
+        this.youWinInstance.src = "./images/youWin.jpg"
     }
     drawYouwinImage() {
         this.ctx.drawImage(
